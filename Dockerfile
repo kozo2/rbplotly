@@ -6,4 +6,4 @@ RUN apt-get update && \
     gem install cztop specific_install rbplotly && \
     gem specific_install https://github.com/SciRuby/iruby && \
     iruby register && \
-    jupyter kernelspec install ~/.ipython/kernels/ruby && \
+    jupyter kernelspec install ~/.ipython/kernels/ruby
